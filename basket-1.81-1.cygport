@@ -1,0 +1,6 @@
+inherit kde4
+
+DESCRIPTION="KDE note-taking application"
+HOMEPAGE="http://basket.kde.org/"
+SRC_URI="http://basket.kde.org/downloads/${P}.tar.bz2"
+PATCH_URI="1.81-cmake-install.patch"

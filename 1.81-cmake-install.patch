@@ -1,0 +1,11 @@
+--- origsrc/basket-1.81/src/CMakeLists.txt	2010-09-25 22:57:18.000000000 -0500
++++ src/basket-1.81/src/CMakeLists.txt	2011-01-24 21:00:08.885279900 -0600
+@@ -76,7 +76,7 @@ endif(Q_WS_X11)
+ 
+ set_target_properties(basketcommon PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
+ 
+-install(TARGETS basketcommon DESTINATION ${LIB_INSTALL_DIR})
++install(TARGETS basketcommon DESTINATION ${INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+ ########### next target ###############
+ 
