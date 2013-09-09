@@ -1,0 +1,11 @@
+inherit kde4
+
+NAME="basket"
+VERSION=1.81
+RELEASE=1
+CATEGORY="Utils"
+SUMMARY="KDE note-taking application"
+DESCRIPTION="A multi-purpose note-taking application for KDE."
+HOMEPAGE="http://basket.kde.org/"
+SRC_URI="http://basket.kde.org/downloads/basket-${VERSION}.tar.bz2"
+PATCH_URI="1.81-cmake-install.patch"

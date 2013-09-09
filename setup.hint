@@ -1,4 +1,0 @@
-category: KDE
-requires: libgcc1 libgpgme11 libkdecore5 libphonon4 libqimageblitz4 libQt3Support4 libQtCore4 libQtDBus4 libQtGui4 libQtNetwork4 libQtXml4 libstdc++6 libX11_6
-sdesc: "KDE note-taking application"
-ldesc: "A multi-purpose note-taking application for KDE."
